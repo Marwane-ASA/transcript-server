@@ -1,0 +1,21 @@
+{
+  "name": "transcript-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "API server for fetching YouTube transcripts.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "youtube-caption-extractor": "^1.9.1"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
